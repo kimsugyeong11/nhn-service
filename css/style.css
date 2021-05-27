@@ -163,6 +163,9 @@ input[type=checkbox]#gnbcheck{ display: none; }
   padding: 0 10px 10px 10px;
   text-transform: uppercase;
 }
+#gnb ul li a:hover{
+  color: #fa2828;
+}
 /* 공통 */
 #intro > .row > .inner,#business > .row > .inner,#culture > .row > .inner{
   width:1080px;
