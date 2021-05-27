@@ -428,6 +428,7 @@ section#recruit{
   background: none;
 }
 section#recruit .row{
+  width:100%;
   padding: 120px 0 0 0;
 }
 section#recruit > .row > .column{
@@ -554,6 +555,19 @@ p.ft_copyright{
   }
   #family_site{
     right:10%;
+  }
+}
+
+/* tablet pc */
+@media screen and ( max-width: 1024px ) {
+  section#intro .inner .box,section#business .inner,section#culture .inner{
+    flex-basis:50%;
+  }
+  .box .txt h2{font-size: 23px;}
+  .box .txt .sub{line-height: 22px;}
+  #intro .box.img,#business .box.img,#culture .box.img{
+    background-size: contain;
+    background-position: center center;
   }
 }
 
