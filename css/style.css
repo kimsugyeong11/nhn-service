@@ -215,9 +215,6 @@ section{
   box-sizing: border-box;
 }
 
-section:nth-child(odd){
-  background: #f9f9f9;
-}
 section .row .column .inner.none_type{
   border: 0;
   box-shadow: none;
